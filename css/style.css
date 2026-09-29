@@ -30,13 +30,6 @@
     padding: 0 30px;
 }
 
-.container-two {
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
 .row {
     display: flex;
     flex-wrap: wrap;
