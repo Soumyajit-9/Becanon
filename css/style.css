@@ -364,7 +364,6 @@ nav {
     display: block;
 }
 
-
 .extraordinary_row .col-25 {
     max-width: 360px;
     padding-left: 0;
@@ -372,7 +371,6 @@ nav {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
 
 .extraordinary_row .col-25:nth-child(4n) {
     margin-right: 0;
@@ -397,9 +395,6 @@ nav {
     border-radius: 6px;
 }
 
-/* =========================
-   NORMAL TEXT CARD
-========================= */
 .extraordinary_text {
     background-color: #EAE4EA;
     padding: 57px 29px 30px 28px;
@@ -429,9 +424,7 @@ nav {
     border-bottom: 1px solid var(--first_color);
 }
 
-
 /* PURPLE CARD */
-
 .extraordinary_purple {
     background-color: var(--btn_bg);
     padding: 57px 24px 30px 28px;
@@ -466,11 +459,6 @@ nav {
     padding: 100px 0 87px;
 }
 
-
-/* =========================
-   HEADING
-========================= */
-
 .testimonials_heading {
     text-align: center;
     margin-bottom: 45px;
@@ -491,21 +479,11 @@ nav {
     color: var(--first_color);
 }
 
-
-/* =========================
-   PROFILE + ARROWS
-========================= */
-
 .testimonial_slider {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-/* =========================
-   PROFILE IMAGES
-========================= */
 
 .testimonial_profiles {
     display: flex;
@@ -535,18 +513,10 @@ nav {
     object-fit: cover;
 }
 
-
-/* Active Profile */
-
 .testimonial_profile.active {
     max-width: 131.93px;
     opacity: 1;
 }
-
-
-/* =========================
-   ARROWS
-========================= */
 
 .testimonial_prev,
 .testimonial_next {
@@ -934,9 +904,6 @@ nav {
         justify-content: space-between;
     }
 
-
-    /* LOGO */
-
     .nav_logo {
         position: static;
         width: 100px;
@@ -949,9 +916,6 @@ nav {
         height: auto;
     }
 
-
-    /* RIGHT SIDE */
-
     .nav_right {
         display: flex;
         align-items: flex-start;
@@ -960,25 +924,15 @@ nav {
         margin-left: 0;
     }
 
-
-    /* HAMBURGER */
-
     .hamburger {
         display: block;
         order: 1;
         padding: 5px;
         font-size: 22px;
     }
-
-
-    /* WHEN HAMBURGER IS ACTIVE */
-
     .hamburger.active {
         display: none;
     }
-
-
-    /* NAV LINKS */
 
     .nav_links {
         display: none;
